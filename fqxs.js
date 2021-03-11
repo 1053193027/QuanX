@@ -1,7 +1,4 @@
-let url = $request.url;
-let body = JSON.parse($response.body);
+let obj = JSON.parse($response.body);
+obj.data["is_vip"] = 1;
 
-body.data.isvip = 1;
-body = JSON.stringify(body);
-
-$done({body});
+$done({body: JSON.stringify(obj)});
