@@ -1,4 +1,10 @@
-let obj = JSON.parse($response.body);
-obj.data["is_vip"] = 1;
-obj.data["left_time"] = "2022-01-01";
-$done({body: JSON.stringify(obj)});
+let url = $request.url;
+let body = JSON.parse($response.body);
+
+if (url.indexOf(user) != -1) {
+	body.data.isvip = 1;
+}
+
+	body = JSON.stringify(body);
+
+$done({body});
