@@ -6,3 +6,7 @@ DOMAIN-SUFFIX, riotcdn.net, 🥊 游戏
 DOMAIN-SUFFIX, riotgames.com, 🥊 游戏
 DOMAIN-SUFFIX, crossutility.com, 🥊 游戏
 DOMAIN-SUFFIX, newrelic.com, 🥊 游戏
+#LOL
+HOST-SUFFIX,pvp.net,WildRift
+HOST-SUFFIX,riotcdn.net,WildRift
+HOST-SUFFIX,riotgames.com,WildRift
